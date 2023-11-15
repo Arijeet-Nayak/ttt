@@ -1,0 +1,186 @@
+/* UserProfile.css */
+.UserProfile {
+  text-align: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  background-color: black;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 30px;
+}
+
+.logo .vertical-line {
+  width: 20px;
+  height: 35px;
+  margin: 0 0px;
+}
+
+.navbar .company-name {
+  margin-right: 10px;
+}
+
+.navbar .nav-button {
+  padding: 8px 16px;
+  background-color: #fcc33e;
+  color: black;
+  border: none;
+  border-radius: 5px;
+}
+
+.background {
+  position: relative;
+  background-image: url("https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg");
+  background-size: cover;
+  background-position: center;
+  height: 300px;
+}
+
+.profile {
+  position: absolute;
+  bottom: -210px;
+  left: 130px;
+  display: flex;
+  align-items: flex-end;
+  color: #fff;
+  padding: 20px;
+}
+
+.profile-picture {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-image: url("https://img.freepik.com/free-psd/3d-illustration-human-avatar-profile_23-2150671142.jpg?size=626&ext=jpg");
+  background-size: cover;
+  background-position: center;
+  /* margin-right: 20px; */
+  margin-left: 1.5rem;
+  margin-top: 280px;
+  
+}
+
+.profile-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  color: black;
+}
+
+.name {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.followers-followings {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.followers-button,
+.followings-button {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.count {
+  padding: 8px 16px;
+  background-color: #fcc33e;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.text {
+  font-size: 14px;
+  margin-top: 5px;
+}
+
+.bio {
+  font-size: 14px;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.interaction-buttons {
+  display: flex;
+}
+
+.star-button,
+.thumbs-up-button,
+.eye-button,
+.heart-button {
+  padding: 8px 16px;
+  background-color: #fcc33e;
+  color: black;
+  border: none;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+.posts-section {
+  text-align: left;
+  margin-top: 20px;
+  color: black;
+  margin-top: 340px; 
+}
+
+.post-count {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.post {
+  border: 1px solid black;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.topic {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.content {
+  margin-bottom: 10px;
+}
+
+.author-info {
+  display: flex;
+  align-items: center;
+}
+
+.author-name {
+  font-size: 14px;
+  font-weight: bold;
+  margin-right: 10px;
+}
+
+.post-details {
+  display: flex;
+}
+
+.date,
+.read-time,
+.views {
+  font-size: 14px;
+  margin-right: 10px;
+}
