@@ -47,14 +47,16 @@
   height: 300px;
 }
 
+
 .profile {
   position: absolute;
-  bottom: -210px;
-  left: 130px;
+  bottom: -113px;
+  left: 123px;
   display: flex;
   align-items: flex-end;
   color: #fff;
-  padding: 20px;
+  padding: 6px;
+  padding-left: 1rem;
 }
 
 .profile-picture {
@@ -67,7 +69,7 @@
   background-position: center;
   /* margin-right: 20px; */
   margin-left: 1.5rem;
-  margin-top: 280px;
+  margin-top: 270px;
   
 }
 
@@ -78,16 +80,36 @@
   color: black;
 }
 
+.name-icon{
+  display: flex;
+  justify-content: space-between;
+  width: 172px;
+}
+
 .name {
-  font-size: 24px;
+  font-size: 1.3rem;
   font-weight: bold;
   margin-bottom: 10px;
+  text-align: left;
+}
+
+.avatar-logo{
+  height: 15px;
+  width: 15px;
+  margin-top: 9px;
+}
+
+.gem{
+  border-radius: 50%;
+  filter: invert(100%);
+  background-color: #C2DF9E;
 }
 
 .followers-followings {
   display: flex;
   align-items: center;
   margin-bottom: 10px;
+  color: #959292;
 }
 
 .followers-button,
@@ -99,12 +121,16 @@
 }
 
 .count {
-  padding: 8px 16px;
-  background-color: #fcc33e;
-  color: black;
-  border: none;
-  border-radius: 4px;
-  margin-right: 10px;
+  padding: 2px 12px;
+    background: transparent;
+    border: 2px solid #959292;
+    color: #959292;
+    font-weight: bold;
+    border-radius: 9px;
+    margin-right: -6px;
+    font-size: 1.3rem;
+    width: 5rem;
+    cursor: pointer;
 }
 
 .text {
@@ -112,93 +138,128 @@
   margin-top: 5px;
 }
 
+.interaction{
+ position: absolute;
+ margin-top: 26.5rem;
+margin-left: 3rem;
+text-align: left;
+}
+
 .bio {
-  font-size: 14px;
-  color: black;
   margin-bottom: 10px;
+}
+
+.bio1{
+  font-size: 1rem;
+}
+
+.bio2{
+  font-size: 0.8rem;
+  color: #45bbd3;
+  cursor: pointer;
 }
 
 .interaction-buttons {
   display: flex;
+  margin-top: 1rem;
+  justify-content: space-between;
+  width: 17rem;
 }
 
-
-/* .thumbs-up-button,
-.eye-button,
-.heart-button {
-  padding: 8px 16px;
-  background-color: #fcc33e;
-  color: black;
-  border: none;
-  border-radius: 4px;
-  margin-right: 10px;
-} */
 
 .star-button,
 .thumbs-up-button,
 .eye-button,
 .heart-button {
   padding: 8px 16px;
-  background-color: blue;
   color: white;
   border: none;
   border-radius: 50%;
-  margin-right: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
   position: relative;
+  width: 1rem;
+  /* height: 1rem; */
   /* transition: background-color 0.2s ease-in-out; */
 }
 
-.button:hover {
-  background-color: darkblue;
+.star-button{
+  background-color: #5EB5C4;
 }
 
-.button-number {
-  position: absolute;
-  top: -8px;
-  right: -8px;
-  background-color: red;
-  color: white;
-  padding: 4px;
-  border-radius: 50%;
+.thumbs-up-button{
+  background-color: #E2B132;
 }
+
+.eye-button{
+  background-color: #828282;
+}
+
+.heart-button{
+  background-color: #C6265C;
+}
+
 
 .button:hover {
   transform: scale(1.2);
+  cursor: pointer;
 }
 
 .icon {
   font-size: 24px;
+  width: 0.9rem;
+  height: 0.9rem;
 }
 
 .thumbs-up-icon {
-  margin-left: 5px;
+  padding: 8px 16px;
+  background-color: #E2B132;
+  color: white;
+  border: none;
+  border-radius: 50%;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  width: 1rem;
 }
 
+
 .posts-section {
+  flex-wrap: wrap;
   text-align: left;
-  margin-top: 20px;
   color: black;
-  margin-top: 340px; 
+  margin-top: 280px; 
 }
 
 .post-count {
-  font-size: 16px;
-  font-weight: bold;
-  margin-bottom: 10px;
+  padding: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    border-top: 1px solid grey;
+    border-right: 1px solid grey;
+    border-bottom: 3px solid white;
+    padding-bottom: 7px;
 }
 
 .post {
-  border: 1px solid black;
-  padding: 10px;
-  margin-bottom: 10px;
+  padding: 2rem;
+ display: flex;
+ flex-direction: column;
+ justify-content: space-between;
+ margin-top: 2.5rem;
+}
+
+.post-top{
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 1rem;
 }
 
 .topic {
   font-size: 18px;
-  font-weight: bold;
+  font-weight: 800;
   margin-bottom: 5px;
 }
 
@@ -208,7 +269,8 @@
 
 .author-info {
   display: flex;
-  align-items: center;
+  justify-content: space-between;
+  padding-top: 1rem;
 }
 
 .author-name {
@@ -219,6 +281,7 @@
 
 .post-details {
   display: flex;
+  width: fit-content;
 }
 
 .date,
@@ -226,4 +289,75 @@
 .views {
   font-size: 14px;
   margin-right: 10px;
+}
+
+.dot{
+  margin-left: 5px;
+}
+
+@media only screen and (max-width:500px) {
+  .background{
+    height: 150px;
+  }
+  .profile-picture{
+    margin-left: 1rem;
+    margin-top: 130px;
+    height: 70px;
+    width: 70px;
+  }
+  .profile{
+    margin-bottom: 5px;
+    margin-left: -38px;
+  }
+  .interaction{
+    margin-top: 260px;
+    margin-left: 24px;
+  }
+  .count{
+    width: 62px;
+    font-size: 1rem;
+  }
+  .star-button,
+  .thumbs-up-button,
+  .eye-button,
+  .heart-button{
+    width: 1rem;
+    height: 1rem;
+    padding: 11px;
+  }
+  .interaction-buttons{
+    width:  12.5rem;
+    margin-top: 2.5rem;
+  }
+  .name{
+    font-size: 1.2rem;
+  }
+  .bio1{
+    font-size: 0.8rem;
+  }
+  .bio2{
+    font-size: 0.7rem;
+  }
+  .content{
+    font-size: 0.8rem;
+  }
+  .author-name{
+    font-size: 0.5rem;
+
+  }
+  .date{
+    font-size: 0.5rem;
+    margin-right: 0;
+  }
+  .read-time{
+    font-size: 0.5rem;
+    margin-right: 0;
+  }
+  .views{
+    font-size: 0.5rem;
+    margin-right: 0;
+  }
+  .dot{
+    margin-right: 5px;
+  }
 }
