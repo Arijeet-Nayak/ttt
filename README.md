@@ -1,3 +1,5 @@
+**VIEW PAGE:** <a href="[https://www.google.com/"](https://ttt-arijeetnayak.netlify.app/) target="_blank">Live Page</a>
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
