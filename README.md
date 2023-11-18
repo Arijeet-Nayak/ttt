@@ -57,18 +57,11 @@ This project utilizes the following libraries and plugins:
 
 4. Open your browser and visit [http://localhost:3000](http://localhost:3000).
 
-## Contributing
-
-Feel free to contribute to enhance this project. Submit pull requests, report issues, and let's make it even better together! 🌟
-
 ## Credits
 
 - Photos from [Freepik](https://www.freepik.com/)
 - Icons from [Flaticon](https://www.flaticon.com/)
 
-## License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ---
 
