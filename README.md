@@ -1,4 +1,4 @@
-**VIEW PAGE:** <a href="[https://www.google.com/"](https://ttt-arijeetnayak.netlify.app/) target="_blank">Live Page</a>
+**VIEW PAGE:** https://ttt-arijeetnayak.netlify.app/
 
 # Getting Started with Create React App
 
