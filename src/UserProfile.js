@@ -18,7 +18,7 @@ const UserProfile = () => {
       {/* Navigation bar */}
       <nav className="navbar">
         <div className="logo">
-          <img src="https://img.freepik.com/free-vector/colorful-bird-illustration-gradient_343694-1741.jpg?size=626&ext=jpg&ga=GA1.1.1196953875.1699991651&semt=sph" alt="Logo" />
+          <img src="/images/logo.png" alt="Logo" />
           <img src="/images/line.png" alt="Vertical Line" className="vertical-line" />
           <span className="company-name"><strong>STORIES</strong></span>
         </div>
@@ -39,11 +39,11 @@ const UserProfile = () => {
 
             <div className="followers-followings">
               <div className="followers-button">
-                <button className="count">1000</button>
+                <button className="count">6482</button>
                 <span className="text">Followers</span>
               </div>
               <div className="followings-button">
-                <button className="count">500</button>
+                <button className="count">245</button>
                 <span className="text">Followings</span>
               </div>
             </div>
@@ -55,29 +55,33 @@ const UserProfile = () => {
 
         <div className='interaction'>
         <span className="bio bio1">Frontend developer at Terribly Tiny Tales</span><br></br>
-        <span className="bio bio2">https://www.linkedin.com/in/arijeet-nayak/</span>
+        <span className="bio bio2">
+        <a href="https://www.linkedin.com/in/arijeet-nayak/" target="_blank" rel="noopener noreferrer">
+            https://www.linkedin.com/in/arijeet-nayak/
+        </a>
+          </span>
 
             {/* Interaction buttons */}
             <div className="interaction-buttons">
             <button className="star-button button" onClick={() => handleButtonClick('star')}>
           <FontAwesomeIcon icon={faStar} className="icon" />
         </button>
-        <span className="button-number">1</span>
+        <span className="button-number">&nbsp;&nbsp;125&nbsp;&nbsp;</span>
 
         <button className="thumbs-up-button button" onClick={() => handleButtonClick('thumbsUp')}>
           <FontAwesomeIcon icon={faThumbsUp} className="icon" />
         </button>
-        <span className="button-number">2</span>
+        <span className="button-number">&nbsp;&nbsp;12&nbsp;&nbsp;</span>
 
         <button className="eye-button button" onClick={() => handleButtonClick('eye')}>
           <FontAwesomeIcon icon={faEye} className="icon" />
         </button>
-        <span className="button-number">3</span>
+        <span className="button-number">&nbsp;&nbsp;57.8k&nbsp;&nbsp;</span>
 
         <button className="heart-button button" onClick={() => handleButtonClick('heart')}>
           <FontAwesomeIcon icon={faHeart} className="icon" />
         </button>
-        <span className="button-number">4</span>
+        <span className="button-number">&nbsp;&nbsp;26.0k</span>
         
             </div>
         </div>
@@ -90,7 +94,7 @@ const UserProfile = () => {
         <div className="post">
 
           <div className="post-top">
-          <span className="topic">Post Topic</span>
+          <span className="topic">A Changing World Order</span>
           <button className="thumbs-up-button button" onClick={() => handleButtonClick('thumbsUp')}>
           <FontAwesomeIcon icon={faThumbsUp} className="icon" />
         </button>
@@ -98,15 +102,17 @@ const UserProfile = () => {
 
 
           <div className="content">
-            Post Content with some details. Add more text here.
+          The world is changing at a feverish pace. Friends,
+          colleagues and everyone engaged in knowledge
+          work are beginning to sense this, including...
           </div>
 
           <div className="author-info">
-            <span className="author-name">Author Name {data.author}</span>
+            <span className="author-name"><span className="color-author">musing</span> <span className="grey-author">{data.author}</span></span>
             <div className="post-details">
-              <span className="date">Nov 14   <span className='dot'>&#183;</span> </span>
-              <span className="read-time">5 min read <span className='dot'>&#183;</span> </span>
-              <span className="views">100 views</span>
+              <span className="date">August 2   <span className='dot'>&#183;</span> </span>
+              <span className="read-time">2 min Read <span className='dot'>&#183;</span> </span>
+              <span className="views">102 Views</span>
             </div>
           </div>
         </div>
@@ -116,7 +122,7 @@ const UserProfile = () => {
         <div className="post">
 
           <div className="post-top">
-          <span className="topic">Post Topic</span>
+          <span className="topic">Indian v/s Australia</span>
           <button className="thumbs-up-button button" onClick={() => handleButtonClick('thumbsUp')}>
           <FontAwesomeIcon icon={faThumbsUp} className="icon" />
         </button>
@@ -124,15 +130,19 @@ const UserProfile = () => {
 
 
           <div className="content">
-            Post Content with some details. Add more text here.
+          Think about it - this cricket series was akin to
+          therapy.<br/><br/>
+
+          Laying our childhood trauma up top, working with
+          it slowly and surely over two m...
           </div>
 
           <div className="author-info">
-            <span className="author-name">Author Name {data.author}</span>
+            <span className="author-name"><span className="color-author">thought</span> <span className="grey-author">{data.author}</span></span>
             <div className="post-details">
-              <span className="date">Nov 14<span className='dot'>&#183;</span> </span>
-              <span className="read-time">5 min read <span className='dot'>&#183;</span> </span>
-              <span className="views">100 views</span>
+              <span className="date">January 21<span className='dot'>&#183;</span> </span>
+              <span className="read-time">1 min Read <span className='dot'>&#183;</span> </span>
+              <span className="views">156 Views</span>
             </div>
           </div>
         </div>
@@ -142,7 +152,7 @@ const UserProfile = () => {
         <div className="post">
 
           <div className="post-top">
-          <span className="topic">Post Topic</span>
+          <span className="topic">Write To Build</span>
           <button className="thumbs-up-button button" onClick={() => handleButtonClick('thumbsUp')}>
           <FontAwesomeIcon icon={faThumbsUp} className="icon" />
         </button>
@@ -150,15 +160,19 @@ const UserProfile = () => {
 
 
           <div className="content">
-            Post Content with some details. Add more text here.
+          Writing is the first step to create:
+            <br/><br/>
+          - stories       <br/>
+          - products      <br/>
+          - companies
           </div>
 
           <div className="author-info">
-            <span className="author-name">Author Name {data.author}</span>
+            <span className="author-name"><span className="color-author">thought</span> <span className="grey-author">{data.author}</span></span>
             <div className="post-details">
-              <span className="date">Nov 14 <span className='dot'>&#183;</span> </span>
-              <span className="read-time">5 min read <span className='dot'>&#183;</span> </span>
-              <span className="views">100 views</span>
+              <span className="date">November 18 <span className='dot'>&#183;</span> </span>
+              <span className="read-time">1 min Read <span className='dot'>&#183;</span> </span>
+              <span className="views">228 Views</span>
             </div>
           </div>
         </div>
