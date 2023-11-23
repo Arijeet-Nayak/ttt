@@ -11,6 +11,8 @@
 
 Welcome to the TTT Arijeet Nayak project! 🚀 Explore a colorful and interactive ReactJS application featuring engaging components and delightful icons.
 
+[![Netlify Status](https://api.netlify.com/api/v1/badges/fa6f6411-4930-4978-b48f-6ecbe89d9e8e/deploy-status)](https://app.netlify.com/sites/ttt-arijeetnayak/deploys)
+
 ## Live Link
 🌐 [TTT Arijeet Nayak Project](https://ttt-arijeetnayak.netlify.app/)
 
