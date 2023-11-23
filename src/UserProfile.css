@@ -75,6 +75,7 @@
   /* margin-right: 20px; */
   margin-left: 1.5rem;
   margin-top: 270px;
+  border: solid 1px rgb(72, 70, 70);
   
 }
 
@@ -160,6 +161,7 @@ text-align: left;
 
 .bio1{
   font-size: 1rem;
+  color: #676767;
 }
 
 .bio2{
@@ -279,6 +281,7 @@ text-align: left;
 
 .content {
   margin-bottom: 10px;
+  color: #616060;
 }
 
 .author-info {
