@@ -1,7 +1,13 @@
 # ReactJS Project - TTT Arijeet Nayak
 
-[![Netlify Status](https://api.netlify.com/api/v1/badges/fa6f6411-4930-4978-b48f-6ecbe89d9e8e/deploy-status)](https://app.netlify.com/sites/ttt-arijeetnayak/deploys)
+![Static Badge](https://img.shields.io/badge/Project-TTT-blue?color=%2334a9ed)
+![Static Badge](https://img.shields.io/badge/Tools-React-blue?color=087EA4)
 
+
+![Visual Studio Code](https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![Netlify](https://img.shields.io/badge/netlify-%23121011.svg?style=for-the-badge&logo=netlify&logoColor=#2CC9B9)
 
 Welcome to the TTT Arijeet Nayak project! 🚀 Explore a colorful and interactive ReactJS application featuring engaging components and delightful icons.
 
@@ -36,6 +42,23 @@ This project utilizes the following libraries and plugins:
 
 ### [Netlify](https://www.netlify.com/)
 - Hosting platform for deploying and managing the live website.
+
+## Screenshots
+
+<p align = "center">
+  <img src="https://i.postimg.cc/5t6dkcY6/React-App-ttt-arijeetnayak-netlify-app.png" width="80%"/>
+</p>
+<h3 align = "center">Responsiveness</h3>
+<p align = "center">
+  <br>
+  <img src="https://i.postimg.cc/jdWrXw9y/phone1.png" width="40%"/>
+  <br>
+  <img src="https://i.postimg.cc/WtRjrssB/phone2.png" width="40%"/>
+  <br>
+  <img src="https://i.postimg.cc/nc6YsgBq/phone3.png" width="40%"/>
+  <br>
+  <img src="https://i.postimg.cc/B6VPrPC2/phone4.png" width="40%"/>
+</p>
 
 ## How to Run Locally
 
